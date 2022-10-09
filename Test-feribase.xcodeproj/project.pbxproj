@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F14E2A028D265A4008B7725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F14E29F28D265A4008B7725 /* AppDelegate.swift */; };
+		6F14E2A228D265A4008B7725 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F14E2A128D265A4008B7725 /* SceneDelegate.swift */; };
+		6F14E2A728D265A4008B7725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F14E2A528D265A4008B7725 /* Main.storyboard */; };
+		6F14E2AC28D265A6008B7725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F14E2AA28D265A6008B7725 /* LaunchScreen.storyboard */; };
+		6F14E2B928D2745F008B7725 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F14E2B828D2745F008B7725 /* LoadingViewController.swift */; };
+		6F14E2BB28D27A81008B7725 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F14E2BA28D27A81008B7725 /* MapViewController.swift */; };
+		6F3B3E9F28E8913A007C86C7 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B3E9E28E89139007C86C7 /* AuthManager.swift */; };
+		6F49D7D128E8574A005B1E62 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F49D7D028E8574A005B1E62 /* GoogleService-Info.plist */; };
+		6F4D260C28D367D1003029FD /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D260B28D367D1003029FD /* OnboardingCollectionViewCell.swift */; };
+		6F4D260F28D36A66003029FD /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D260E28D36A66003029FD /* Slide.swift */; };
+		6F4F5A4B28D2930E005DCD7D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4F5A4A28D2930E005DCD7D /* SettingsViewController.swift */; };
+		6F4F5A4E28D2978C005DCD7D /* PresenterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4F5A4D28D2978C005DCD7D /* PresenterManager.swift */; };
+		6F4F5A5028D34596005DCD7D /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4F5A4F28D34596005DCD7D /* OnboardingViewController.swift */; };
+		6F5D96DB28D2811A004AE6E4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5D96DA28D28119004AE6E4 /* Helper.swift */; };
+		6F5D96DD28D28EA8004AE6E4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5D96DC28D28EA8004AE6E4 /* Constants.swift */; };
+		6F90495228E2423C0012B709 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6F90495128E2423C0012B709 /* Podfile */; };
+		6FCBF43228E1CF260075D3F1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCBF43128E1CF260075D3F1 /* LoginViewController.swift */; };
+		6FE0A82B28E26A5F0046D00E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE0A82A28E26A5F0046D00E /* Assets.xcassets */; };
+		6FE0A82D28E26D2E0046D00E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE0A82C28E26D2E0046D00E /* HomeViewController.swift */; };
+		A9F1203F2E0AA0831AC74A94 /* Pods_Test_feribase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A367F492C05929559A7987 /* Pods_Test_feribase.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		354ED245856E57BC43526ADB /* Pods-Test-feribase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-feribase.debug.xcconfig"; path = "Target Support Files/Pods-Test-feribase/Pods-Test-feribase.debug.xcconfig"; sourceTree = "<group>"; };
+		6F14E29C28D265A4008B7725 /* Test-feribase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test-feribase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F14E29F28D265A4008B7725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F14E2A128D265A4008B7725 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6F14E2A628D265A4008B7725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F14E2AB28D265A6008B7725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F14E2AD28D265A6008B7725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F14E2B828D2745F008B7725 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		6F14E2BA28D27A81008B7725 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6F3B3E9E28E89139007C86C7 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		6F49D7D028E8574A005B1E62 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6F4D260B28D367D1003029FD /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		6F4D260E28D36A66003029FD /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		6F4F5A4A28D2930E005DCD7D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6F4F5A4D28D2978C005DCD7D /* PresenterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterManager.swift; sourceTree = "<group>"; };
+		6F4F5A4F28D34596005DCD7D /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		6F5D96DA28D28119004AE6E4 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		6F5D96DC28D28EA8004AE6E4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6F90495128E2423C0012B709 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6FCBF43128E1CF260075D3F1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6FE0A82A28E26A5F0046D00E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
+		6FE0A82C28E26D2E0046D00E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D280801EBA99F6EED1039A8E /* Pods-Test-feribase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-feribase.release.xcconfig"; path = "Target Support Files/Pods-Test-feribase/Pods-Test-feribase.release.xcconfig"; sourceTree = "<group>"; };
+		D2A367F492C05929559A7987 /* Pods_Test_feribase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_feribase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F14E29928D265A4008B7725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F1203F2E0AA0831AC74A94 /* Pods_Test_feribase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AD0097A195DA2F568C9A5A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2A367F492C05929559A7987 /* Pods_Test_feribase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F14E29328D265A4008B7725 = {
+			isa = PBXGroup;
+			children = (
+				6F90495128E2423C0012B709 /* Podfile */,
+				6F14E29E28D265A4008B7725 /* Test-feribase */,
+				6F14E29D28D265A4008B7725 /* Products */,
+				F472B4305618BE5F471A0AAD /* Pods */,
+				0AD0097A195DA2F568C9A5A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F14E29D28D265A4008B7725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F14E29C28D265A4008B7725 /* Test-feribase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F14E29E28D265A4008B7725 /* Test-feribase */ = {
+			isa = PBXGroup;
+			children = (
+				6F4D260D28D36A51003029FD /* model */,
+				6F4D260A28D367B6003029FD /* views */,
+				6F4F5A4C28D29764005DCD7D /* manager */,
+				6F14E2BF28D28051008B7725 /* helper */,
+				6F14E2B728D27421008B7725 /* controller */,
+				6F14E29F28D265A4008B7725 /* AppDelegate.swift */,
+				6F14E2A128D265A4008B7725 /* SceneDelegate.swift */,
+				6F14E2A528D265A4008B7725 /* Main.storyboard */,
+				6F14E2AA28D265A6008B7725 /* LaunchScreen.storyboard */,
+				6FE0A82A28E26A5F0046D00E /* Assets.xcassets */,
+				6F49D7D028E8574A005B1E62 /* GoogleService-Info.plist */,
+				6F14E2AD28D265A6008B7725 /* Info.plist */,
+			);
+			path = "Test-feribase";
+			sourceTree = "<group>";
+		};
+		6F14E2B728D27421008B7725 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F14E2B828D2745F008B7725 /* LoadingViewController.swift */,
+				6F14E2BA28D27A81008B7725 /* MapViewController.swift */,
+				6F4F5A4A28D2930E005DCD7D /* SettingsViewController.swift */,
+				6F4F5A4F28D34596005DCD7D /* OnboardingViewController.swift */,
+				6FCBF43128E1CF260075D3F1 /* LoginViewController.swift */,
+				6FE0A82C28E26D2E0046D00E /* HomeViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		6F14E2BF28D28051008B7725 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				6F5D96DA28D28119004AE6E4 /* Helper.swift */,
+				6F5D96DC28D28EA8004AE6E4 /* Constants.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		6F4D260A28D367B6003029FD /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6F4D260B28D367D1003029FD /* OnboardingCollectionViewCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		6F4D260D28D36A51003029FD /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6F4D260E28D36A66003029FD /* Slide.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6F4F5A4C28D29764005DCD7D /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				6F4F5A4D28D2978C005DCD7D /* PresenterManager.swift */,
+				6F3B3E9E28E89139007C86C7 /* AuthManager.swift */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		F472B4305618BE5F471A0AAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				354ED245856E57BC43526ADB /* Pods-Test-feribase.debug.xcconfig */,
+				D280801EBA99F6EED1039A8E /* Pods-Test-feribase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F14E29B28D265A4008B7725 /* Test-feribase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F14E2B028D265A6008B7725 /* Build configuration list for PBXNativeTarget "Test-feribase" */;
+			buildPhases = (
+				769669E483D5122001C679D1 /* [CP] Check Pods Manifest.lock */,
+				6F14E29828D265A4008B7725 /* Sources */,
+				6F14E29928D265A4008B7725 /* Frameworks */,
+				6F14E29A28D265A4008B7725 /* Resources */,
+				8F3929A23F0D90A619DD33CB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test-feribase";
+			productName = "Test-feribase";
+			productReference = 6F14E29C28D265A4008B7725 /* Test-feribase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F14E29428D265A4008B7725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6F14E29B28D265A4008B7725 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 6F14E29728D265A4008B7725 /* Build configuration list for PBXProject "Test-feribase" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F14E29328D265A4008B7725;
+			productRefGroup = 6F14E29D28D265A4008B7725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F14E29B28D265A4008B7725 /* Test-feribase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F14E29A28D265A4008B7725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F14E2AC28D265A6008B7725 /* LaunchScreen.storyboard in Resources */,
+				6F90495228E2423C0012B709 /* Podfile in Resources */,
+				6F49D7D128E8574A005B1E62 /* GoogleService-Info.plist in Resources */,
+				6FE0A82B28E26A5F0046D00E /* Assets.xcassets in Resources */,
+				6F14E2A728D265A4008B7725 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		769669E483D5122001C679D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test-feribase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F3929A23F0D90A619DD33CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test-feribase/Pods-Test-feribase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test-feribase/Pods-Test-feribase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test-feribase/Pods-Test-feribase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F14E29828D265A4008B7725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FCBF43228E1CF260075D3F1 /* LoginViewController.swift in Sources */,
+				6F3B3E9F28E8913A007C86C7 /* AuthManager.swift in Sources */,
+				6F14E2A028D265A4008B7725 /* AppDelegate.swift in Sources */,
+				6F14E2A228D265A4008B7725 /* SceneDelegate.swift in Sources */,
+				6F4F5A4B28D2930E005DCD7D /* SettingsViewController.swift in Sources */,
+				6F5D96DB28D2811A004AE6E4 /* Helper.swift in Sources */,
+				6F4F5A4E28D2978C005DCD7D /* PresenterManager.swift in Sources */,
+				6F14E2B928D2745F008B7725 /* LoadingViewController.swift in Sources */,
+				6F14E2BB28D27A81008B7725 /* MapViewController.swift in Sources */,
+				6F4D260F28D36A66003029FD /* Slide.swift in Sources */,
+				6F4D260C28D367D1003029FD /* OnboardingCollectionViewCell.swift in Sources */,
+				6F4F5A5028D34596005DCD7D /* OnboardingViewController.swift in Sources */,
+				6FE0A82D28E26D2E0046D00E /* HomeViewController.swift in Sources */,
+				6F5D96DD28D28EA8004AE6E4 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F14E2A528D265A4008B7725 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F14E2A628D265A4008B7725 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F14E2AA28D265A6008B7725 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F14E2AB28D265A6008B7725 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F14E2AE28D265A6008B7725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F14E2AF28D265A6008B7725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F14E2B128D265A6008B7725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 354ED245856E57BC43526ADB /* Pods-Test-feribase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77S46C4QPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Test-feribase/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.app.Test-feribase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F14E2B228D265A6008B7725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D280801EBA99F6EED1039A8E /* Pods-Test-feribase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77S46C4QPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Test-feribase/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.app.Test-feribase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F14E29728D265A4008B7725 /* Build configuration list for PBXProject "Test-feribase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F14E2AE28D265A6008B7725 /* Debug */,
+				6F14E2AF28D265A6008B7725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F14E2B028D265A6008B7725 /* Build configuration list for PBXNativeTarget "Test-feribase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F14E2B128D265A6008B7725 /* Debug */,
+				6F14E2B228D265A6008B7725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F14E29428D265A4008B7725 /* Project object */;
+}
